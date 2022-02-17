@@ -29,7 +29,7 @@ Data sets were taken from the following link: https://www.ncei.noaa.gov/pub/data
       1. Logistic Regression, Random Forest, GradientBoostingClassifier 
       2. Histograms, box-whisker plots 
 
- ##Libraries:
+## Libraries:
        1. Normalizer 
        2. StandardScaler
        3. Confusion Matrix
@@ -38,7 +38,7 @@ Data sets were taken from the following link: https://www.ncei.noaa.gov/pub/data
        6. numpy
        7. pandas 
 
-# Workflow 
+## Workflow 
       1. look for dataset 
       2. gather the data 
       3. explore the data 
@@ -46,3 +46,15 @@ Data sets were taken from the following link: https://www.ncei.noaa.gov/pub/data
             a. Drop columns 
                   i. 90% Nan's 
                   ii. Not relavent 
+                  iii. Repeated information
+            b. Lower column heads 
+            c. Fill Nan's with median 
+            d. Check dtypes 
+            e. Correlation Matrix 
+            f. Check categorical data 
+                  i. if value count is more than 100 drop or clean 
+            g.outliers/boxplots 
+            h.Save new data set in a new csv  
+       5.Classification model 
+            
+      
