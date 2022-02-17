@@ -22,21 +22,21 @@ Data sets were taken from the following link: https://www.ncei.noaa.gov/pub/data
 - Thunderstorm Wind 
 - Tornado 
 # Used tools 
- ## Programs
-1. Jupiter - python 
-2. Tableau  
- ## Methods 
- 1. Logistic Regression, Random Forest, GradientBoostingClassifier 
- 2. Histograms, box-whisker plots 
+## Programs
+      1. Jupiter - python 
+      2. Tableau  
+## Methods 
+      1. Logistic Regression, Random Forest, GradientBoostingClassifier 
+      2. Histograms, box-whisker plots 
 
  ##Libraries:
- 1. Normalizer 
- 2. StandardScaler
- 3. Confusion Matrix
- 4. train_test_split
- 5. OneHotEncoder
- 6. numpy
- 7. pandas 
+       1. Normalizer 
+       2. StandardScaler
+       3. Confusion Matrix
+       4. train_test_split
+       5. OneHotEncoder
+       6. numpy
+       7. pandas 
 
 # Workflow 
       1. look for dataset 
