@@ -26,7 +26,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='f_df_clean' name='textscan.09zf9fr1qr98dr17fleah023w1ej'>
-            <connection class='textscan' directory='/Users/k/Desktop/Final_project_disaster/End_Of_Semester_Proj' filename='f_df_clean.csv' password='' server='' />
+            <connection class='textscan' directory='/Users/k/Desktop/duplicates /finalproject_dup' filename='f_df_clean.csv' password='' server='' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.09zf9fr1qr98dr17fleah023w1ej' name='f_df_clean.csv' table='[f_df_clean#csv]' type='table'>
