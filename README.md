@@ -1,4 +1,6 @@
-# Storm_type_final_project
+# Storm_type_final_project 
+![photo]()
+
 Data sets were taken from the following link: https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/
 # Objective/Question 
 Develop a classification machine learning model to predict EVENT_TYPE using the dataset taken from national centers for environmental information(NOAA). The dataset has information about 
