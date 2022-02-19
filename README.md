@@ -1,5 +1,5 @@
 # Storm_type_final_project
-Data sets were taken from the following link: https://www.ncei.noaa.gov/pub/data/swdi/stormevents/
+Data sets were taken from the following link: https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/
 # Objective/Question 
 Develop a classification machine learning model to predict EVENT_TYPE using the dataset taken from national centers for environmental information(NOAA). The dataset has information about 
       - when the event happened:duration, month, year, time
@@ -64,7 +64,8 @@ Develop a classification machine learning model to predict EVENT_TYPE using the 
             h.Save new data set in a new csv  
        5.Classification model 
  
- 
+ # Conclusion 
+ Results were poor from 
  # Next Time 
  Other project ideas could have been to take a closer look at specific states and identify overall trends. While ignoring the location file all together to get a more consecutive time line.
       
