@@ -1,7 +1,7 @@
 # Storm_type_final_project
 Data sets were taken from the following link: https://www.ncei.noaa.gov/pub/data/swdi/stormevents/
 # Objective/Question 
-- Develop a classification machine learning model to predict EVENT_TYPE using the dataset taken from national centers for environmental information(NOAA). The dataset has information about 
+Develop a classification machine learning model to predict EVENT_TYPE using the dataset taken from national centers for environmental information(NOAA). The dataset has information about 
       - when the event happened:duration, month, year, time
       - where it happened:i.e. state, county
       - damage caused by the event:i.e. deaths, cost of damage to both crops and property, injuries. 
