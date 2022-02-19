@@ -63,9 +63,7 @@ Develop a classification machine learning model to predict EVENT_TYPE using the 
             g.outliers/boxplots 
             h.Save new data set in a new csv  
        5.Classification model 
- 
- # Conclusion 
- Results were poor from 
+  
  # Next Time 
  Other project ideas could have been to take a closer look at specific states and identify overall trends. While ignoring the location file all together to get a more consecutive time line.
       
