@@ -64,7 +64,10 @@ Develop a classification machine learning model to predict EVENT_TYPE using the 
                   i. if value count is more than 100 drop or clean 
             g.outliers/boxplots 
             h.Save new data set in a new csv  
-       5.Classification model 
+       5.Classification models
+            a.logistic regression 
+            b.random forests 
+            c.GradientBoostingClassifier
   
  # Next Time 
  Other project ideas could have been to take a closer look at specific states and identify overall trends. While ignoring the location file all together to get a more consecutive time line.
