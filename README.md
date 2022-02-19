@@ -1,7 +1,7 @@
 # Storm_type_final_project 
-![photo]()
+![photo](https://github.com/katoro-a/Storm_type_final_project/blob/624643d3917eb02a73c17d92e4814f9b2d0fac82/image/default_Image-by-Scott-Burlovich.jpg)
 
-Data sets were taken from the following link: https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/
+- Data sets were taken from the following link: https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/
 # Objective/Question 
 Develop a classification machine learning model to predict EVENT_TYPE using the dataset taken from national centers for environmental information(NOAA). The dataset has information about 
       - when the event happened:duration, month, year, time
