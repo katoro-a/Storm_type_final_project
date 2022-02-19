@@ -4,7 +4,11 @@ Data sets were taken from the following link: https://www.ncei.noaa.gov/pub/data
 - Develop a classification machine learning model to predict EVENT_TYPE using the dataset taken from national centers for environmental information(NOAA). The dataset has information about 
       - when the event happened:duration, month, year, time
       - where it happened:i.e. state, county
-      - damage caused by the event:i.e. deaths, cost of damage to both crops and property, injuries.
+      - damage caused by the event:i.e. deaths, cost of damage to both crops and property, injuries. 
+
+ # How to tackle it 
+ In this repo you will find 4 ipynb files, begin with Explor_data.ipynb which takes an initial look a the data set and what possible trends or varibales may hold interest. Then follows Gather_compress_files, which selects the years with functioning files i.e location,details and fatalites for that year. They are then merged into one larger file for cleaning. Cleaning then identifies columns with repeating information, removes nans, outliers, and unecessary columns for the model. Classification_model_old scales the data for use in the following models: logisitical regression, random forests, and XG boost. While comparing model accruacy differences between SMOTE (oversampling)and TomekLinks(undersampling).  
+ 
  # Focusing on the following years 
   - Consecutive years were not selected as the location files were unavalible.
       - 2008
@@ -58,8 +62,7 @@ Data sets were taken from the following link: https://www.ncei.noaa.gov/pub/data
             g.outliers/boxplots 
             h.Save new data set in a new csv  
        5.Classification model 
- # How to tackle it 
- In this repo you will find 4 ipynb files, begin with Explor_data.ipynb which takes an initial look a the data set and what possible trends or varibales may hold interest. Then follows Gather_compress_files, which selects the years with functioning files i.e location,details and fatalites for that year. They are then merged into one larger file for cleaning. Cleaning then identifies columns with repeating information, removes nans, outliers, and unecessary columns for the model. Classification_model_old scales the data for use in the following models: logisitical regression, random forests, and XG boost. While comparing model accruacy differences between SMOTE (oversampling)and TomekLinks(undersampling).   
+ 
  
  # Next Time 
  Other project ideas could have been to take a closer look at specific states and identify overall trends. While ignoring the location file all together to get a more consecutive time line.
