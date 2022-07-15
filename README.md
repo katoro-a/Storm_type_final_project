@@ -24,7 +24,7 @@ Develop a classification machine learning model to predict EVENT_TYPE using the 
       - 2021  
 
 # Looking at the following storm events 
-- FLash Flood
+- Flash Flood
 - Flood
 - Hail 
 - Heavy Rain 
